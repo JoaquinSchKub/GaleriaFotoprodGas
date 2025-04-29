@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #f5f2ec;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    margin: 5px;
+    padding: 5px 10%;
+    border: solid;
+    border-bottom: #222831;
+}
+
+.header #inicio {
+    display: flex;
+}
+
+.header #inicio h1{
+    margin: 12px;
+    margin-top: 20px;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+/*---- nav ------*/
+
+.header .links{
+    list-style: none;
+}
+
+.header .links li{
+    display:inline-block;
+    padding: 0 20px; 
+}
+
+.header .links li:hover{
+    transform: scale(1.1);
+}
+
+.header .links a{
+    font-size: 700;
+    color: #222831;
+    text-decoration: none;
+}
+
+.header .links li a:hover{
+    color: #393E46;
+}
+
+/*------ sobre mi --------*/
+
+#portada {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: auto;
+}
+
+#portada img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    border: solid;
+    border-color: #222831;
+}
+
+#portada p {
+    margin: 30px;
+    padding: 40px;
+    border: solid;
+    border-color: #222831;
+}
+
+/* ------ ModelBook ----*/
+
+#ModelBooks {
+    text-align: center;
+    display: flex;
+    border-top: solid;
+    border-color: #222831;
+    width: 90vw;
+    height:auto;
+    margin: 15px;
+}
+
+#ModelBooks h2{
+    width: 10%;
+    height: 30px;
+    border: solid;
+    border-top: none;
+    border-color: #222831;
+}
+
+#ModelBooks .cardWrap{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ModelBooks .cardWrap .card{
+    border: solid;
+    border-color: #222831;
+    margin: .3rem;
+    padding: .2rem;
+}
+
+#ModelBooks .cardWrap .card img{
+    width: 100%;
+    height: auto;
+}
+
+/* ------ Products ----*/
+
+#Products {
+    display: flex;
+    border-top: solid;
+    border-color: #222831;
+    width: 90vw;
+    height:max-content;
+    margin: 15px;
+}
+
+#Products h2{
+    text-align: center;
+    width: 10%;
+    height: 30px;
+    border: solid;
+    border-top: none;
+    border-color: #222831;
+}
+
+#Products .cardWrap{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Products .cardWrap .card{
+    border: solid;
+    border-color: #222831;
+    margin: .3rem;
+    padding: .2rem;
+}
+
+#Products .cardWrap .card img{
+    width: 100%;
+    height: auto;
+}
+
+/* ------ Paw Prints ----*/
+
+#PawPrints {
+    display: flex;
+    border-top: solid;
+    border-color: #222831;
+    width: 90vw;
+    height:max-content;
+    margin: 15px;
+}
+
+#PawPrints h2{
+    text-align: center;
+    width: 10%;
+    height: 30px;
+    border: solid;
+    border-top: none;
+    border-color: #222831;
+}
+
+#PawPrints .cardWrap{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#PawPrints .cardWrap .card{
+    border: solid;
+    border-color: #222831;
+    margin: .3rem;
+    padding: .2rem;
+}
+
+#PawPrints .cardWrap .card img{
+    width: 100%;
+    height: auto;
+}
