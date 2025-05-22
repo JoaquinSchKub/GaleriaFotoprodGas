@@ -9,8 +9,14 @@
 }
 
 body {
-    background-color: #f5f2ec;
+    background-image: url(https://i.pinimg.com/736x/a9/6f/e8/a96fe812a625380c1c11e67201aeb909.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
 }
+
 
 .header{
     display: flex;
@@ -74,6 +80,7 @@ body {
 /*------ sobre mi --------*/
 
 #portada {
+    
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -83,6 +90,7 @@ body {
 }
 
 #portada img {
+    background-color: #DFD0B8;
     width: 30%;
     height: auto;
     margin: 10px;
@@ -111,6 +119,7 @@ body {
 }
 
 #ModelBooks h2{
+    background-color: #DFD0B8; 
     width: 10%;
     height: 30px;
     border: solid;
@@ -121,11 +130,16 @@ body {
 #ModelBooks .cardWrap{
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 #ModelBooks .cardWrap .card{
+    background-color: #DFD0B8;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
     border: solid;
     border-color: #222831;
     margin: .3rem;
@@ -149,6 +163,7 @@ body {
 }
 
 #Products h2{
+    background-color: #DFD0B8; 
     text-align: center;
     width: 10%;
     height: 30px;
@@ -160,11 +175,16 @@ body {
 #Products .cardWrap{
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 #Products .cardWrap .card{
+    background-color: #DFD0B8; 
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
     border: solid;
     border-color: #222831;
     margin: .3rem;
@@ -188,6 +208,7 @@ body {
 }
 
 #PawPrints h2{
+    background-color: #DFD0B8; 
     text-align: center;
     width: 10%;
     height: 30px;
@@ -199,11 +220,16 @@ body {
 #PawPrints .cardWrap{
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 #PawPrints .cardWrap .card{
+    background-color: #DFD0B8; 
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
     border: solid;
     border-color: #222831;
     margin: .3rem;
